@@ -15,15 +15,19 @@ const Achievements = () => {
     },
     {
       title: 'Spurs Scholar',
-      description: 'Awarded Spurs Scholarship for outstanding academic performance at SSN College Of Engineering.',
+      description: 'Awarded Spurs Scholarship for outstanding academic performance at School and Free Education for 4 Years of UG Program.',
     },
     {
-        title: 'Spurs Scholar',
-        description: 'Awarded Spurs Scholarship for outstanding academic performance at SSN College Of Engineering.',
+        title: 'NMMS Scholar',
+        description: 'Awarded Scholarship Worth of 48000.Selected across National level.',
       },
       {
-        title: 'Spurs Scholar',
-        description: 'Awarded Spurs Scholarship for outstanding academic performance at SSN College Of Engineering.',
+        title: 'TRUST Scholar',
+        description: 'Awarded Scholarship Worth of 4000.Selected and Got 9th Rank',
+      },
+      {
+        title: '5 Star for Python On Hacker rank',
+        description: 'Solved Various concepts and Levels',
       },
   ];
 

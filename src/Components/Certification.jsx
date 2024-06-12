@@ -5,27 +5,35 @@ import { FaAward } from "react-icons/fa";
 const Certification = () => {
   const certifications = [
     {
-      title: "Certified Full Stack Developer",
+      title: "Google | Data Analyst Professional",
       organization: "Coursera",
       issueDate: "June 2023",
       description:
-        "Completed a comprehensive course on full stack development covering front-end and back-end technologies.",
+        "Completed a comprehensive course on Data analyst consist 0f 8 certificates.",
     },
     {
-      title: "Data Science Professional Certificate",
-      organization: "edX",
+      title: "Meta | Front end Developer",
+      organization: "Coursera",
       issueDate: "March 2023",
       description:
-        "Gained expertise in data analysis, visualization, and machine learning techniques.",
+        "Studying Comprehensive course for Frontend development",
+      
     },
     {
-      title: "Machine Learning Specialization",
-      organization: "Coursera",
-      issueDate: "January 2023",
+      title: "Ethical Hacking",
+      organization: "NPTEL",
+      issueDate: "Dec 2023",
       description:
-        "Learned various machine learning algorithms and their applications in real-world scenarios.",
+        "Gained expertise in Ethical hacking and various penetration techniques",
     },
-    // Add more certifications as needed
+    {
+      title: "Programming in Modern C++",
+      organization: "NPTEL",
+      issueDate: "April 2023",
+      description:
+        "Motivated to learn C++ and terminilogies",
+    },
+    
   ];
 
   return (
@@ -53,7 +61,7 @@ const Certification = () => {
               </div>
               <p className="text-lg mb-2">Issued by: {cert.organization}</p>
               <p className="text-lg mb-2">Issue Date: {cert.issueDate}</p>
-              <p className="text-base text-gray-700">{cert.description}</p>
+              <p className="text-base text-gray-400">{cert.description}</p>
             </motion.div>
           ))}
         </div>

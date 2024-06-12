@@ -28,16 +28,16 @@ const Hero = () => {
   return (
     <div className="border-b border-blue-500 pb-4 lg:mb-35">
       <div className="flex flex-wrap">
-        <div className="w-full lg:w-1/2 lg:p-8 mb-20">
+        <div className="w-full lg:w-1/2 lg:p-8 lg:mb-20 mb-10">
           <div className="flex justify-center relative">
             <motion.div
               initial={{ scale: 0 }}
               animate={{ scale: 1 }}
               transition={{ duration: 0.5 }}
-              className="relative w-80 h-80 rounded-full bg-gradient-to-r from-cyan-200 to-cyan-900 sm:w-64 sm:h-64 xs:w-full xs:h-90 lg:w-96 lg:h-96 xl:w-112 xl:h-112"
+              className="relative w-80 h-80 rounded-full bg-gradient-to-r from-cyan-200 to-cyan-900 sm:w-64 sm:h-64  xs:h-50 xs:w-50 lg:w-96 lg:h-96 xl:w-112 xl:h-112"
             />
             <motion.div
-              className="absolute w-95 h-95 rounded-full sm:w-64 sm:h-64 xs:w-full xs:h-full lg:w-96 lg:h-96 xl:w-112 xl:h-112"
+              className="absolute w-95 h-95 rounded-full sm:w-64 sm:h-64  lg:w-96 lg:h-96 xl:w-112 xl:h-112 xs:h-80 xs:w-80"
               animate={{
                 y: ["0%", "-5%", "0%"],
               }}
@@ -62,10 +62,10 @@ const Hero = () => {
           className="w-full lg:w-1/2"
         >
           <div className="flex flex-col items-center lg:items-start gap-4">
-            <h2 className="text-lg font-medium">
-              Welcome to my portfolio!
-            </h2>
-            <h1 className="text-4xl font-bold lg:text-7xl">I'm <span className="text-blue-500">Sudhakaran</span></h1>
+            <h2 className="text-lg font-medium">Welcome to my portfolio!</h2>
+            <h1 className="text-4xl font-bold lg:text-7xl">
+              I'm <span className="text-blue-500">Sudhakaran</span>
+            </h1>
             <div className="h-16">
               <AnimatePresence>
                 {professions.map(
