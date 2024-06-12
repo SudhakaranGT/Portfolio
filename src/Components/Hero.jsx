@@ -34,10 +34,10 @@ const Hero = () => {
               initial={{ scale: 0 }}
               animate={{ scale: 1 }}
               transition={{ duration: 0.5 }}
-              className="relative w-80 h-80 rounded-full bg-gradient-to-r from-cyan-200 to-cyan-900 sm:w-64 sm:h-64 xs:h-49 xs:w-49 lg:w-96 lg:h-96 xl:w-112 xl:h-112"
+              className="relative w-60 h-60 rounded-full bg-gradient-to-r from-cyan-200 to-cyan-900 sm:w-64 sm:h-64 xs:h-49 xs:w-49 lg:w-96 lg:h-96 xl:w-112 xl:h-112"
             />
             <motion.div
-              className="absolute w-95 h-95 rounded-full sm:w-64 sm:h-64  lg:w-96 lg:h-96 xl:w-112 xl:h-112 xs:h-80 xs:w-80"
+              className="absolute w-60 h-60 rounded-full sm:w-64 sm:h-64  lg:w-96 lg:h-96 xl:w-112 xl:h-112 xs:h-80 xs:w-80"
               animate={{
                 y: ["0%", "-5%", "0%"],
               }}
